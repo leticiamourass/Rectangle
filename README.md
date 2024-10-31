@@ -1,4 +1,4 @@
-# The-Rectangle-Class
+# The Rectangle Class
 
 Atividade em Java que implementa a classe `Rectangle`, com métodos para calcular a área e o perímetro, além de funcionalidades para manipular suas dimensões.
 
@@ -25,10 +25,20 @@ Este projeto implementa uma classe `Rectangle` em Java, que fornece funcionalida
    ```bash
    git clone https://github.com/leticiamourass/The-Rectangle-Class
 
+2. **Compile os Arquivos Java**
+
+Navegue até o diretório do projeto e compile os arquivos .java:
+
 cd REPOSITORIO
 javac Rectangle.java TestMain.java
 
+3. **Execute o Programa**
+
+Execute a classe TestMain para testar a funcionalidade da classe Rectangle:
+
 java TestMain
+
+## Exemplo de Saída Esperada
 
 Rectangle[length=1.2,width=3.4]
 Rectangle[length=1.0,width=1.0]
