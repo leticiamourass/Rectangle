@@ -23,4 +23,17 @@ Este projeto implementa uma classe `Rectangle` em Java, que fornece funcionalida
 1. **Clone o Repositório**
 
    ```bash
-   git clone https://github.com/SEU_USUARIO/REPOSITORIO.git
+   git clone https://github.com/leticiamourass/The-Rectangle-Class
+
+cd REPOSITORIO
+javac Rectangle.java TestMain.java
+
+java TestMain
+
+Rectangle[length=1.2,width=3.4]
+Rectangle[length=1.0,width=1.0]
+Rectangle[length=5.6,width=7.8]
+length is: 5.6
+width is: 7.8
+area is: 43.68
+perimeter is: 26.80
