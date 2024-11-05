@@ -1,12 +1,10 @@
 public class Rectangle {
-    // Atributos privados
-    private float length;
-    private float width;
+    // Atributos de instância
+    private float length = 1.0f;
+    private float width = 1.0f;
 
     // Construtor padrão
     public Rectangle() {
-        this.length = 1.0f;
-        this.width = 1.0f;
     }
 
     // Construtor com parâmetros
@@ -35,17 +33,17 @@ public class Rectangle {
         this.width = width;
     }
 
-    // Método para calcular a área
+    // Calcula a área
     public double getArea() {
         return length * width;
     }
 
-    // Método para calcular o perímetro
+    // Calcula o perímetro
     public double getPerimeter() {
         return 2 * (length + width);
     }
 
-    // Método toString para exibir as informações do retângulo
+    // Sobrescreve o método toString
     @Override
     public String toString() {
         return "Rectangle[length=" + length + ",width=" + width + "]";
