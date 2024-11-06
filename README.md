@@ -4,17 +4,17 @@ Atividade em Java que implementa a classe `Rectangle`, com métodos para calcula
 
 ## Funcionalidades
 
-- Construtores:
+- **Construtores**:
   - Construtor padrão que inicializa o comprimento e a largura com 1.0.
   - Construtor com parâmetros que permite a inicialização com valores específicos.
 
-- Métodos:
+- **Métodos**:
   - Getters e Setters para comprimento e largura.
   - Método para calcular a área do retângulo.
   - Método para calcular o perímetro do retângulo.
   - Método `toString` para exibir informações do retângulo.
 
-## Exemplo de Saída Esperada
+## Exemplo de Execução
 
 Rectangle[length=1.2,width=3.4]
 
