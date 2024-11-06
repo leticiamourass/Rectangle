@@ -14,26 +14,6 @@ Atividade em Java que implementa a classe `Rectangle`, com métodos para calcula
   - Método para calcular o perímetro do retângulo.
   - Método `toString` para exibir informações do retângulo.
 
-## Como Usar
-
-1. **Clone o Repositório**
-
-   ```bash
-   git clone https://github.com/leticiamourass/The-Rectangle-Class
-
-2. **Compile os Arquivos Java**
-
-Navegue até o diretório do projeto e compile os arquivos .java:
-
-cd REPOSITORIO
-javac Rectangle.java TestMain.java
-
-3. **Execute o Programa**
-
-Execute a classe TestMain para testar a funcionalidade da classe Rectangle:
-
-java TestMain
-
 ## Exemplo de Saída Esperada
 
 Rectangle[length=1.2,width=3.4]
